@@ -67,6 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0)
+  liquid
   webrick (~> 1.8)
 
 BUNDLED WITH
