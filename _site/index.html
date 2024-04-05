@@ -1,14 +1,13 @@
 <!DOCTYPE HTML>
 <html lang="en-GB">
-    {% include base.html %}
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
         <title>Panther Scouts Group</title>
 
-        <link href="{{base}}/style.css" rel="stylesheet">
-        <link rel="icon" href="{{base}}/panther.svg" type="image/x-icon">
-        <script src="{{base}}/scripts/header.js"></script>
+        <link href="{{page.baseurl}}/style.css" rel="stylesheet">
+        <link rel="icon" href="{ 'panther.svg' | relative_url }" type="image/x-icon">
+        <script src="{ 'scripts/header.js' | relative_url }"></script>
     </head>
     <body>
         <div class="heading" id="header">
