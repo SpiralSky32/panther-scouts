@@ -1,0 +1,36 @@
+html, body{
+   margin: 0 auto;
+   clear: both;
+}
+
+
+.heading {
+   position: sticky;
+   top: 0;
+   z-index: 999;
+   background-image: url('assets/header.jpg');
+   background-size: 100%;
+   background-position: 50% 50%;
+   opacity: 0.5px;
+   border-radius: 0px;
+   padding: 160px;
+   margin: 0px;
+   transition: 1s;
+}
+
+.title {
+   color: white;
+   text-align: center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 100px;
+   font-weight: bold;
+   transition: 1s;
+}
+
+.minimised-heading{
+   padding: 5px;
+}
+.minimised-font{
+   font-size: 25px;
+}
+
